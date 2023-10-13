@@ -1,5 +1,10 @@
 # Useful code
 
+- [Useful code](#useful-code)
+  - [CSV to XLSX](#csv-to-xlsx)
+  - [Keep Only X Days](#keep-only-x-days)
+  - [Stop computer from going idle](#stop-computer-from-going-idle)
+
 ## CSV to XLSX
 
 `PowerShell` script to convert any CSVs found in directory that were created today -
@@ -10,13 +15,17 @@
 
 ## Keep Only X Days
 
+`PowerShell` script to delete objects in the directory/subdirectory specified that are older than `NumDays`.
+
 Accepts 2 arguments
+
 - `NumDays`
   - integer
   - default is `90`
 - `DebugCommand`
   - boolean
   - default is `false`
-  
-  `PowerShell` script to delete objects in the directory/subdirectory specified that are older than `NumDays`. 
-  
+
+## Stop computer from going idle
+
+`Python` script to top computer from going idle.
